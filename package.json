@@ -1,0 +1,15 @@
+{
+  "name": "drone-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/main.js",
+  "dependencies": {
+    "broadway-player": "^0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "watchify js/main.js -o js/build.js -v"
+  },
+  "author": "FREEZX",
+  "license": "ISC"
+}

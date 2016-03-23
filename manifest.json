@@ -1,0 +1,21 @@
+{
+  "name": "Hello World!",
+  "description": "My first Chrome App.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "sockets": {
+    "udp": {
+      "send": "*",
+      "bind": "0.0.0.0"
+    },
+    "tcp": {
+      "connect": "*"
+    }
+  },
+  "icons": { "16": "drone-16.png", "128": "drone-128.png" }
+}
